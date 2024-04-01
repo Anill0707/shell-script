@@ -1,6 +1,6 @@
 #!/bin/bash
 
-a=4
-b=5
-c=$((a+b))
-echo " $c"
+NUM1=$1
+NUM2=$2
+SUM=$((NUM1+NUM2))
+echo " Addition of two Numbers $SUM"
