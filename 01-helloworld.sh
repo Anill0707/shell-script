@@ -1,4 +1,6 @@
 #!/bin/bash
 echo "I am Learning Devops and Linux"
-echo "Ramesh: Hello Suresh, How are you"
-echo "Suresh: Hello Ramesh, How are you"
+Person1=Ramesh
+Person2=Suresh
+echo "$Person1: Hello $Person1, How are you"
+echo "$Person2: Hello $Person1, How are you"
