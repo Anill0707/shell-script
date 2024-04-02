@@ -1,5 +1,8 @@
 #!/bin/bash
 DATE=$(date +%F)
+
+echo " Date is $DATE "
+
 USERID=$(id -u)
 
 if [ $USERID -ne 0 ];
@@ -8,4 +11,3 @@ then
     exit 1
 else yum install nginx
 fi
-echo " Date is $DATE "
