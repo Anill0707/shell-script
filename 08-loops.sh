@@ -9,5 +9,7 @@ if [ $USERID -ne 0 ];
 then
     echo -e "$R ERROR:: Please run this script with root access $N"
     exit 1
-else yum install nginx
+else yum install nginx -y
 fi
+
+echo " nginx installed"
