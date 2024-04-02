@@ -8,3 +8,4 @@ then
     exit 1
 else yum install nginx
 fi
+echo " Date is $DATE "
